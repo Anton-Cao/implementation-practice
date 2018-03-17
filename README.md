@@ -1,8 +1,10 @@
 # Implementation Practice
 
 ## Topics
+- [x] Insertion sort
 - [x] Heap
-- [ ] Merge sort
+- [x] Merge sort
+- [ ] Radix sort
 - [ ] Binary Tree
 - [ ] AVL Tree
 - [ ] Hash map
