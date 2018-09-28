@@ -52,6 +52,7 @@ class UnionFind(object):
             else: # Make node1 a child of node2
                 node2.size += node1.size
                 node1.par = rep2
+        return rep1 != rep2 # returns whether merge occurred
 
 if __name__ == "__main__":
     uf = UnionFind([0, 1, 2, 3, 4, 5])
